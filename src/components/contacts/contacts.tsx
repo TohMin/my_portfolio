@@ -24,7 +24,7 @@ const Contacts = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                nailheart4@gmail.com
+                0bx325391p95b5v@ezweb.ne.jp
               </Link>
             </div>
           </div>
@@ -32,7 +32,7 @@ const Contacts = () => {
             <Icon className={styles.icon} name="location" size={30} />
             <div>
               <h3 className={styles.infoTitle}>Location</h3>
-              <span>Ukraine, Dnipro region</span>
+              <span>Japan, Osaka-shi</span>
             </div>
           </div>
         </div>
@@ -40,7 +40,7 @@ const Contacts = () => {
         <div className={styles.social}>
           <SocialLink
             className={styles.socialLink}
-            href="https://github.com/Nailheart"
+            href="https://github.com/TohMin"
             iconName="github"
             title="github"
           />
@@ -58,7 +58,7 @@ const Contacts = () => {
           />
           <SocialLink
             className={styles.socialLink}
-            href="https://t.me/Nailheart"
+            href="https://web.telegram.org/k/"
             iconName="telegram"
             title="telegram"
           />

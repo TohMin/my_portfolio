@@ -8,9 +8,9 @@ import ArrowUp from '@/../public/img/icons/arrow-up.svg';
 import Code from '@/../public/img/icons/code.svg';
 import CSS from '@/../public/img/icons/css.svg';
 import ExternalLink from '@/../public/img/icons/external-link.svg';
-import Figma from '@/../public/img/icons/figma.svg';
+import Python from '@/../public/img/icons/python-icon.svg';
 import Github from '@/../public/img/icons/github.svg';
-import Gulp from '@/../public/img/icons/gulp.svg';
+import Php from '@/../public/img/icons/php-ar21.svg';
 import HTML from '@/../public/img/icons/html.svg';
 import JS from '@/../public/img/icons/js.svg';
 import LinkedIn from '@/../public/img/icons/linkedin.svg';
@@ -19,7 +19,7 @@ import Mail from '@/../public/img/icons/mail.svg';
 import NextJs from '@/../public/img/icons/nextjs.svg';
 import React from '@/../public/img/icons/react.svg';
 import Rocket from '@/../public/img/icons/rocket.svg';
-import Sass from '@/../public/img/icons/sass.svg';
+import Vue from '@/../public/img/icons/vue-svgrepo-com.svg';
 import Skype from '@/../public/img/icons/skype.svg';
 import Telegram from '@/../public/img/icons/tg.svg';
 import TypeScript from '@/../public/img/icons/typescript.svg';
@@ -37,15 +37,18 @@ import Gsap from '@/../public/img/icons/gsap.svg';
 import Codepen from '@/../public/img/icons/codepen.svg';
 import Prisma from '@/../public/img/icons/prisma.svg';
 import Stripe from '@/../public/img/icons/stripe.svg';
+import Laravel from '@/../public/img/icons/laravel-2.svg';
+import Django from '@/../public/img/icons/django.svg';
+
 
 const icons: Record<IconName, FC<SVGProps<SVGSVGElement>>> = {
   arrowUp: ArrowUp,
   code: Code,
   css: CSS,
   externalLink: ExternalLink,
-  figma: Figma,
+  python: Python,
   github: Github,
-  gulp: Gulp,
+  php: Php,
   html: HTML,
   js: JS,
   linkedIn: LinkedIn,
@@ -54,7 +57,7 @@ const icons: Record<IconName, FC<SVGProps<SVGSVGElement>>> = {
   nextjs: NextJs,
   react: React,
   rocket: Rocket,
-  sass: Sass,
+  vue: Vue,
   skype: Skype,
   telegram: Telegram,
   typescript: TypeScript,
@@ -72,6 +75,8 @@ const icons: Record<IconName, FC<SVGProps<SVGSVGElement>>> = {
   codepen: Codepen,
   prisma: Prisma,
   stripe: Stripe,
+  laravel: Laravel,
+  django: Django
 };
 
 type Props = SVGProps<SVGSVGElement> & {

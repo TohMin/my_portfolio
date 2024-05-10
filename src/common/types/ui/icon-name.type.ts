@@ -3,9 +3,9 @@ type IconName =
   | 'code'
   | 'css'
   | 'externalLink'
-  | 'figma'
+  | 'python'
   | 'github'
-  | 'gulp'
+  | 'php'
   | 'html'
   | 'js'
   | 'linkedIn'
@@ -14,7 +14,7 @@ type IconName =
   | 'nextjs'
   | 'react'
   | 'rocket'
-  | 'sass'
+  | 'vue'
   | 'skype'
   | 'telegram'
   | 'typescript'
@@ -31,6 +31,8 @@ type IconName =
   | 'green-sock'
   | 'codepen'
   | 'prisma'
-  | 'stripe';
+  | 'stripe'
+  | 'laravel'
+  | 'django';
 
 export { type IconName };

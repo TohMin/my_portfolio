@@ -12,22 +12,27 @@ const Portfolio = () => {
 
       <ul className={styles.list}>
         <li>
-          <Card
-            img="/img/works/youtube-clone.jpg"
-            title="YouTube"
-            description="Youtube clone using rapid api - demo."
-            href="https://youtube-clone-nailheart.vercel.app"
-            githubUrl="https://github.com/Nailheart/youtube-clone"
-            topics={['react', 'typescript', 'rapid-api', 'sass']}
-          />
-        </li>
+            <Card
+              img="/img/works/react.jpg"
+              title="IPCC"
+              description="Task manager to keep track of your goals."
+              href="https://www.ipcc.ch/"
+              topics={[
+                'react',
+                'prisma',
+                'typescript',
+                'stripe',
+                'tailwindcss',
+              ]}
+            />
+          </li>
         <li>
           <Card
             img="/img/works/taskify.jpg"
             title="Taskify"
             description="Task manager to keep track of your goals."
             href="https://taskify-ashen-delta.vercel.app/"
-            githubUrl="https://github.com/Nailheart/taskify"
+            // githubUrl="https://github.com/Nailheart/taskify"
             topics={['nextjs', 'prisma', 'typescript', 'stripe', 'tailwindcss']}
           />
         </li>
@@ -36,7 +41,7 @@ const Portfolio = () => {
             img="/img/works/chatiko.jpg"
             title="Chatiko"
             description="Realtime chat app."
-            githubUrl="https://github.com/Nailheart/chatiko"
+            // githubUrl="https://github.com/Nailheart/chatiko"
             topics={[
               'nextjs',
               'typescript',

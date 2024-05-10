@@ -13,9 +13,12 @@ const About = () => {
     { title: 'TypeScript', iconName: 'typescript', href: 'https://www.typescriptlang.org/' },
     { title: 'Next.js', iconName: 'nextjs', href: 'https://nextjs.org/' },
     { title: 'React', iconName: 'react', href: 'https://react.dev/' },
-    { title: 'Sass', iconName: 'sass', href: 'https://sass-lang.com/' },
-    { title: 'Gulp', iconName: 'gulp', href: 'https://gulpjs.com/' },
-    { title: 'Figma', iconName: 'figma', href: 'https://www.figma.com/' },
+    { title: 'Vue', iconName: 'vue', href: 'https://vuejs.org/' },
+    { title: 'Php', iconName: 'php', href: 'https://phpgurukul.com/php-projects-free-downloads/#' },
+    { title: 'Python', iconName: 'python', href: 'https://realpython.com/tutorials/projects/' },
+    { title: 'Laravel', iconName: 'laravel', href: 'https://laravel.com/docs/4.2/quick' },
+    { title: 'Django', iconName: 'django', href: 'https://en.wikipedia.org/wiki/Django_(web_framework)' },
+
   ];
 
   return (
@@ -31,7 +34,8 @@ const About = () => {
 
         <div className={styles.content}>
           <h2 className={styles.title}>About <span>Me</span></h2>
-          <p className={styles.text}>Greetings! I&apos;m <span>Yaroslav Lebedenko</span>, a dedicated frontend developer driven by my love for crafting fully responsive and user-centric websites. My expertise lies in frontend technologies, including <span>HTML</span>, <span>CSS</span>, and <span>JavaScript</span>. Currently, I&apos;m deeply engaged with <span>React</span>, <span>Next.js</span>, and <span>TypeScript</span>, pushing the boundaries of what can be achieved. I maintain a perpetual commitment to honing my skills and keeping pace with the ever-evolving landscape of industry trends.</p>
+          <p className={styles.text}>Greetings! I&apos;m <span>Tooru Ichikawa</span>, a dedicated fullstack developer driven by my love for crafting fully responsive and user-centric websites. On the frontend, I am proficient in <span>HTML</span>, <span>CSS</span>, and <span>JavaScript</span>, and have experience with popular frameworks such as <span>React</span>, <span>Vue</span> and <span>Next</span>. On the backend, I have expertise in <span>PHP</span> and <span>PYTHON</span>, and am familiar with frameworks like <span>Laravel</span> and <span>Django</span>. With a strong foundation in both frontend and backend technologies, I offer comprehensive development solutions to meet diverse project requirements. I am constantly working to hone my skills and keep up with ever-changing industry trends.
+          </p>
         </div>
       </div>
 

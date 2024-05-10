@@ -13,7 +13,7 @@ type Props = {
   title: string;
   description: string;
   href?: string;
-  githubUrl: string;
+  // githubUrl: string;
   topics?: IconName[];
 };
 
@@ -22,14 +22,14 @@ const Card: FC<Props> = ({
   title,
   description,
   href,
-  githubUrl,
+  // githubUrl,
   topics,
 }) => {
   return (
     <div className={styles.card}>
       <Link
         className={styles.link_img}
-        href={href ? href : githubUrl}
+        href={href ? href : ""}
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -46,14 +46,13 @@ const Card: FC<Props> = ({
           <h3 className={styles.title}>
             <Link
               className={styles.title_link}
-              href={href ? href : githubUrl}
+              href={href ? href : ""}
               target="_blank"
               rel="noopener noreferrer"
             >
               {title}
             </Link>
           </h3>
-          <SocialLink title="github" href={githubUrl} iconName="github" />
         </div>
         <p className={styles.text}>{description}</p>
         <div className={styles.topics}>

@@ -10,11 +10,11 @@ const Intro = () => {
         <h1 className={styles.title}>
           Hello there! 👋
           <br />
-          I&apos;m <span>Yaroslav Lebedenko</span>
+          I&apos;m <span>Tooru Ichikawa</span>
         </h1>
 
         <p className={styles.text}>
-          I&apos;m a frontend developer from Ukraine, and this is my small
+          I&apos;m a fullstack developer from Japan, and this is my small
           portfolio website. Thank you for visiting, and I hope you enjoy
           exploring my portfolio.
         </p>
